@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.logo {
+    color: white;
+    background-color: rgb(2, 120, 120);
+    font-size: 30px;
+}
+.menu-bar {
+    background-color: rgb(2, 120, 120);
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+}
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+}
+.menu-bar ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+.menu-bar ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.menu-bar ul li a:hover {
+    color: black
+}
+.fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+/* dropdown menu style */
+.dropdown-menu {
+     display:none;
+}
+.menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: lightblue;
+}
+.menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+}
+.body{
+    margin-top: 4px;
+}
+img{
+    position: absolute;
+    z-index: -1;
+}
+.box{
+    position: relative;
+    top: 350px;           
+    left: 50%; 
+    border: solid white;
+    max-width: 375px;
+    padding: 30px;
+    background-color:rgba(227, 158, 170, 0.785);
+}
+ p{
+    font-family: cursive;
+    color: white;
+    font-size: large;
+}
+
+.father{
+    color: grey;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.father h1{
+    text-decoration:line-through;
+    text-decoration-color: black;
+}
+.father{
+    position: relative;
+    top: 650px;
+    margin-top: 20px;
+}
+.father{
+    border: black;
+    padding: 15px;
+    background-color: lightblue;
+}
+.child1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+    position: relative;
+}
+.child1 ul{
+    list-style: none;
+    display: flex;
+}
+.child1 ul li{
+    padding: 35px 50px;
+    position: relative;
+}
+.child1 ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+div.end{
+    color: brown;
+    text-decoration: underline;
+    text-shadow: rgba(0, 0, 0, 0.597);
+}
